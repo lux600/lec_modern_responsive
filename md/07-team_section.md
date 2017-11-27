@@ -27,14 +27,19 @@
     </div>
 ~~~
 - container 클래스 정리 
+    - <div class="content-box"> 안에 정리 
 ~~~
-    <div class="container">
-        <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-            <div class="col-md-12">
-                
+    <div class="content-box">
+        <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">...</div>
+        
+        <div class="container">
+            <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="col-md-12">
+                    
+                </div>
             </div>
         </div>
-    </div>
+    </div>    
 ~~~
 
 - 팀 이미지 추가하기 
