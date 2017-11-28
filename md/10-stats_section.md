@@ -279,6 +279,20 @@ $(function() {
         </div>
     </div>
 ~~~
+
+- 마지막 애니메이션 
+~~~
+    <!--<div class="content-title content-title-white" >-->
+    <div class="content-title content-title-white wow animated fadeInDown"
+         data-wow-duration="1s" data-wow-delay=".5s" >
+~~~
+~~~
+    <div class="container">
+    <!--<div class="row" >-->
+        <div class="row wow animated bounceInLeft"
+             data-wow-duration="1s" data-wow-delay=".5s" >
+~~~
+
         
                                 
 

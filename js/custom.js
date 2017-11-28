@@ -66,3 +66,18 @@ $(function() {
     });
 
 });
+
+/*========================================
+                Clients
+======================================== */
+$(function() {
+    //Carousel
+    $('#clients-list').owlCarousel({
+        items : 4,
+        autoplay : true,
+        smartSpeed : 700,
+        loop : true,
+        autoplayHoverPause:true
+    }) ;
+
+});
