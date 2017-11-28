@@ -52,3 +52,17 @@ $(function() {
     }) ;
 
 });
+
+/*========================================
+                Counter
+http://ciromattia.github.io/jquery.counterup/demo/index.html
+http://imakewebthings.com/waypoints/
+======================================== */
+$(function() {
+
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+    });
+
+});
