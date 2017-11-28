@@ -12,6 +12,7 @@
 /* General CSS */
 html, body {
     height: 100%;
+    /*position: relative;*/
 }
 body {
     font-family: 'Roboto Condensed', sans-serif;
@@ -494,6 +495,49 @@ form .form-control {
 
 }
 
+/*========================================
+                Navigation
+======================================== */
+.navbar {
+    padding: 20px 0;
+}
+.itcoop-top-nav {
+    background : rgba(0,0,0, 0.7);
+    padding: 7px 30px ;
+
+}
+.navbar-nav > li {
+    margin: 0 7px ;
+}
+.navbar-nav > li > a {
+    color : #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    background : none;
+    color : #34c6d3;
+    text-decoration:none ;
+}
+.navbar-toggler {
+    background-color: rgba(0,0,0, 0.1);
+    border: 1px solid #fff ;
+    border-radius: 0;
+}
+.navbar-toggler .navbar-toggler-icon {
+    color: #fff;
+}
+.navbar-collapse {
+    max-height:none !important;
+    text-align: right;
+}
+
+.itcoop-top-nav ul.navbar-nav > li > a.active {
+    color:#34c6d3 ;
+}
 
 
 
