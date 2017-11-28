@@ -174,8 +174,8 @@ address strong,
 }
 .social-icon i:hover { ... }
 ~~~
-- #contact-left h3 에 
-    - #contact-right h3 - title 오른쪽 설정도 같이 함 
+- \#contact-left h3 에 
+    - \#contact-right h3 - title 오른쪽 설정도 같이 함 
 ~~~
 #contact-left h3,
 #contact-right h3{
