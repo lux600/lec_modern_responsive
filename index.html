@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-wdith, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Modern Responsive Website</title>
     <!--favicon-->
     <link rel="shortcut icon" href="./img/favicon.ico">
@@ -32,6 +32,7 @@
 
 </head>
 <body>
+
 <!-- Home -->
 <section id="home">
     <div id="home-cover" class="bg-parallax animated fadeIn">
@@ -370,31 +371,72 @@
 
 <!-- Testimonials -->
 <section id="testimonials">
-    <div class="content-box">
+    <div id="testimonials-cover" class="bg-parallax">
+        <div class="content-box">
 
-        <div class="content-title content-title-white wow animated fadeInDown"
-             data-wow-duration="1s" data-wow-delay=".5s">
-            <h3>What Our Customers Say</h3>
-            <div class="content-title-underline"></div>
-        </div>
-
-
-        <div class="container">
-            <div class="row wow animated boundInDown"
+            <div class="content-title content-title-white wow animated fadeInDown"
                  data-wow-duration="1s" data-wow-delay=".5s">
-
-                <div class="col-md-12">
-                    <div id="customers-testimonials">
-                        <div class="testimonial">
-                            <img src="./img/client/client-1.jpg" class="img-fluid" alt="testimonials">
-                        </div>
-                    </div>
-                </div>
-
+                <h3>What Our Customers Say</h3>
+                <div class="content-title-underline"></div>
             </div>
+
+
+            <div class="container">
+                <div class="row wow animated boundInDown"
+                     data-wow-duration="1s" data-wow-delay=".5s">
+
+                    <div class="col-md-12">
+
+
+                        <div id="customers-testimonials" class="text-center owl-carousel owl-theme">
+                            <div class="testimonial">
+                                <img src="./img/client/client-1.jpg" class="img-fluid rounded-circle" alt="testimonials">
+                                <blockquote class="text-center">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <p>
+                                        <strong>Daniel Watrous</strong>
+                                        <span>CEO & Founder - Google</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <img src="./img/client/client-2.jpg" class="img-fluid rounded-circle" alt="testimonials">
+                                <blockquote class="text-center">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <p>
+                                        <strong>Johan Mathew</strong>
+                                        <span>CEO & Founder - Facebook</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <img src="./img/client/client-3.jpg" class="img-fluid rounded-circle" alt="testimonials">
+                                <blockquote class="text-center">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <p>
+                                        <strong>Sara Smith</strong>
+                                        <span>CEO & Founder - Amazon</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
         </div>
-
-
     </div>
 </section>
 
@@ -406,7 +448,11 @@
 
 
 <!-- jQuery CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+
+<!-- jQuery,popper javascript -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" ></script>
 
 <!-- bootstrap javascript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" ></script>
